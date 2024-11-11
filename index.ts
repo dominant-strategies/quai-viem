@@ -1,5 +1,6 @@
 import { 
     createPublicClient,
+    createWalletClient,
     defineChain,
     http
   } from 'viem' 
@@ -24,6 +25,7 @@ import {
         number: block.number,
         timestamp: block.timestamp
       })
+        
     } catch (error) {
       console.error('Error:', error)
     }
