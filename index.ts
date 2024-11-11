@@ -16,8 +16,9 @@ import {
   ;(async () => {
     try {
       // Example of getting a block
-        const block = await publicClient.getBlock()
+      const block = await publicClient.getBlock()
 
+      console.log(block.header)
       console.log('Latest block:', {
         hash: block.hash,
         number: block.number,
