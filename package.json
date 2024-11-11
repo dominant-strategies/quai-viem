@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "viem": "^2.21.44",
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "start": "ts-node index.ts"
+  }
+}
