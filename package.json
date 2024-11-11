@@ -1,9 +1,14 @@
 {
+  "type": "module",
   "dependencies": {
-    "viem": "^2.21.44",
-    "typescript": "^5.0.0"
+    "protobufjs": "^7.4.0",
+    "typescript": "^5.0.0",
+    "viem": "^2.21.44"
   },
   "scripts": {
     "start": "ts-node index.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2"
   }
 }
